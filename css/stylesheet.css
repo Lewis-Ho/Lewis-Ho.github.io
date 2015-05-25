@@ -132,3 +132,7 @@ h4 {
 	line-height:2em;
 	color:#fff;
 }
+.box-link {
+  font-weight: bold;
+  color: black;
+}
