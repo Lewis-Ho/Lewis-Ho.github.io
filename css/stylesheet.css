@@ -1,0 +1,134 @@
+.top.band {
+	background: url('../img/top-bang-bg.jpg') no-repeat center center;
+	background-size:100% auto;
+	position:relative;
+}
+.bg-overlay {
+	background:rgba(0,0,0,.5);
+	position:absolute;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+}
+.top-band-content {
+	z-index:999;
+	color:#fff;
+}
+.top-band-content h1 {
+	font-family: "proxima-nova",sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	text-transform:uppercase;
+	color:#fff;
+	font-size:35px;
+	letter-spacing:0.2em;
+}
+.top.band h1 {
+	text-align:center;
+	padding: 150px 0 0 0;
+}
+.top.band p {
+	max-width:550px;
+	padding:75px 0 150px 0;
+	margin:0 auto;
+	font-family: "proxima-nova",sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	font-size:16px;
+	line-height:1.6em;
+}
+.top-navigation {
+	text-align:center;
+	padding:0;
+	margin:0;
+}
+.top-navigation li {
+	text-transform:uppercase;
+	display:inline-block;
+	padding:0 10px;
+	font-family: "proxima-nova",sans-serif;
+	font-style: normal;
+	font-weight: 100;
+	letter-spacing:0.1em;
+}
+
+h2 {
+	text-transform:uppercase;
+	text-align:center;
+	padding:35px 0;
+	font-family: "proxima-nova",sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	font-size:28px;
+	letter-spacing:0.1em;
+}
+h3 {
+	font-family: "proxima-nova",sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size:21px;
+	letter-spacing:0.2em;
+	text-transform:uppercase;
+}
+h4 {
+	font-family: "proxima-nova",sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size:21px;
+	letter-spacing:0.2em;
+}
+.project-work {
+	padding:0 0 75px 0;
+}
+.project-work p {
+	padding:10px 0 0 0;
+	font-family: "proxima-nova",sans-serif;
+	font-style: normal;
+	font-weight: 100;
+	font-size:14px;
+	line-height:2em;
+}
+.skill-experience {
+	padding:0 0 75px 0;
+}
+.skill-experience ul {
+	margin:0;
+}
+.skill-experience li {
+	list-style:none;
+	padding:10px 0;
+	font-family: "proxima-nova",sans-serif;
+	font-style: normal;
+	font-weight: 100;
+	font-size:14px;
+	line-height:1.2em;
+	letter-spacing:0.05em;
+}
+
+.footer.band {
+	padding:50px 0;
+	background:#000;
+}
+.footer.band h5 {
+	color:#fff;
+	font-family: "proxima-nova",sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	font-size:18px;
+	letter-spacing:0.2em;
+	text-transform:uppercase;
+}
+.footer.band ul {
+	margin:0;
+}
+.footer.band li {
+	list-style:none;
+	padding:0 0 14px 0;
+	font-family: "proxima-nova",sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size:14px;
+	line-height:2em;
+	color:#fff;
+}
