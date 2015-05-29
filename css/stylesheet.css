@@ -1,58 +1,3 @@
-.top.band {
-	background: url('../img/top-bang-bg.jpg') no-repeat center center;
-	background-size:100% auto;
-	position:relative;
-}
-.bg-overlay {
-	background:rgba(0,0,0,.5);
-	position:absolute;
-	top:0;
-	left:0;
-	right:0;
-	bottom:0;
-}
-.top-band-content {
-	z-index:999;
-	color:#fff;
-}
-.top-band-content h1 {
-	font-family: "proxima-nova",sans-serif;
-	font-style: normal;
-	font-weight: 300;
-	text-transform:uppercase;
-	color:#fff;
-	font-size:35px;
-	letter-spacing:0.2em;
-}
-.top.band h1 {
-	text-align:center;
-	padding: 150px 0 0 0;
-}
-.top.band p {
-	max-width:550px;
-	padding:75px 0 150px 0;
-	margin:0 auto;
-	font-family: "proxima-nova",sans-serif;
-	font-style: normal;
-	font-weight: 300;
-	font-size:16px;
-	line-height:1.6em;
-}
-.top-navigation {
-	text-align:center;
-	padding:0;
-	margin:0;
-}
-.top-navigation li {
-	text-transform:uppercase;
-	display:inline-block;
-	padding:0 10px;
-	font-family: "proxima-nova",sans-serif;
-	font-style: normal;
-	font-weight: 100;
-	letter-spacing:0.1em;
-}
-
 h2 {
 	text-transform:uppercase;
 	text-align:center;
@@ -78,6 +23,73 @@ h4 {
 	font-size:21px;
 	letter-spacing:0.2em;
 }
+
+/**
+ * Header
+ */
+
+.top.band {
+	background: url('../img/top-bang-bg.jpg') no-repeat center center;
+	background-size:100% auto;
+	position:relative;
+}
+.top.band h1 {
+	text-align:center;
+	padding: 150px 0 0 0;
+}
+.top.band p {
+	max-width:550px;
+	padding:75px 0 150px 0;
+	margin:0 auto;
+	font-family: "proxima-nova",sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	font-size:16px;
+	line-height:1.6em;
+}
+.top-band-content {
+	z-index:999;
+	color:#fff;
+}
+.top-band-content h1 {
+	font-family: "proxima-nova",sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	text-transform:uppercase;
+	color:#fff;
+	font-size:35px;
+	letter-spacing:0.2em;
+}
+.bg-overlay {
+	background:rgba(0,0,0,.5);
+	position:absolute;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+}
+.top-navigation {
+	text-align:center;
+	padding:0;
+	margin:0;
+}
+.top-navigation li {
+	text-transform:uppercase;
+	display:inline-block;
+	padding:0 10px;
+	font-family: "proxima-nova",sans-serif;
+	font-style: normal;
+	font-weight: 100;
+	letter-spacing:0.1em;
+}
+.top-navigation a {
+  color: white;
+}
+
+/**
+ * Content
+ */
+
 .project-work {
 	padding:0 0 75px 0;
 }
@@ -105,6 +117,10 @@ h4 {
 	line-height:1.2em;
 	letter-spacing:0.05em;
 }
+
+/**
+ * Footer
+ */
 
 .footer.band {
 	padding:50px 0;
@@ -136,3 +152,4 @@ h4 {
   font-weight: bold;
   color: black;
 }
+
