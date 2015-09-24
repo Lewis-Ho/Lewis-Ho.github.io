@@ -1,3 +1,30 @@
+/* max-width 640px*/
+@media only screen and (max-width: 40em) {
+	.top.band {
+		background: url('../img/top-band-bg2.jpeg') no-repeat center center;
+		background-size: 250%;
+		position:relative;
+	}
+}
+
+/* min-width 641px and max-width 1024px*/
+@media only screen and (min-width: 40.063em) and (max-width: 64em) { 
+	.top.band {
+		background: url('../img/top-band-bg2.jpeg') no-repeat center center;
+		background-size: 160%;
+		position:relative;
+	}
+}
+
+/* min-width 1025px*/
+@media only screen and (min-width: 64.063em) {
+	.top.band {
+		background: url('../img/top-band-bg2.jpeg') no-repeat center center;
+		background-size:100% auto;
+		position:relative;
+	}
+}
+
 h2 {
 	text-transform:uppercase;
 	text-align:center;
@@ -28,18 +55,18 @@ h4 {
  * Header
  */
 
-.top.band {
-	background: url('../img/top-bang-bg.jpg') no-repeat center center;
+/*.top.band {
+	background: url('../img/top-band-bg2.jpeg') no-repeat center center;
 	background-size:100% auto;
 	position:relative;
-}
+}*/
 .top.band h1 {
 	text-align:center;
 	padding: 150px 0 0 0;
 }
 .top.band p {
 	max-width:550px;
-	padding:75px 0 150px 0;
+	padding:200px 0 150px 0;
 	margin:0 auto;
 	font-family: "proxima-nova",sans-serif;
 	font-style: normal;
