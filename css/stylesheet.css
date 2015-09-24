@@ -2,8 +2,17 @@
 @media only screen and (max-width: 40em) {
 	.top.band {
 		background: url('../img/top-band-bg2.jpeg') no-repeat center center;
-		background-size: 250%;
+		background-size: 300%;
 		position:relative;
+	}
+	.top-band-content h1 {
+		font-family: "proxima-nova",sans-serif;
+		font-style: normal;
+		font-weight: 300;
+		text-transform:uppercase;
+		color:#fff;
+		font-size:2em;
+		letter-spacing:0.1em;
 	}
 }
 
@@ -14,14 +23,32 @@
 		background-size: 160%;
 		position:relative;
 	}
+	.top-band-content h1 {
+		font-family: "proxima-nova",sans-serif;
+		font-style: normal;
+		font-weight: 300;
+		text-transform:uppercase;
+		color:#fff;
+		font-size:4em;
+		letter-spacing:0.1em;
+	}
 }
 
 /* min-width 1025px*/
 @media only screen and (min-width: 64.063em) {
 	.top.band {
 		background: url('../img/top-band-bg2.jpeg') no-repeat center center;
-		background-size:100% auto;
+		background-size: 100% auto;
 		position:relative;
+	}
+	.top-band-content h1 {
+		font-family: "proxima-nova",sans-serif;
+		font-style: normal;
+		font-weight: 300;
+		text-transform:uppercase;
+		color:#fff;
+		font-size:4em;
+		letter-spacing:0.1em;
 	}
 }
 
@@ -62,11 +89,11 @@ h4 {
 }*/
 .top.band h1 {
 	text-align:center;
-	padding: 150px 0 0 0;
+	padding: 100px 0 0 0;
 }
 .top.band p {
 	max-width:550px;
-	padding:200px 0 150px 0;
+	padding:50px 0 150px 0;
 	margin:0 auto;
 	font-family: "proxima-nova",sans-serif;
 	font-style: normal;
@@ -78,14 +105,11 @@ h4 {
 	z-index:999;
 	color:#fff;
 }
-.top-band-content h1 {
-	font-family: "proxima-nova",sans-serif;
-	font-style: normal;
-	font-weight: 300;
-	text-transform:uppercase;
-	color:#fff;
-	font-size:35px;
-	letter-spacing:0.2em;
+#profile {
+	width: 200px;
+	height: 200px;
+	border-radius: 100px;
+	margin:100px 0 0 0;
 }
 .bg-overlay {
 	background:rgba(0,0,0,.5);
@@ -111,6 +135,10 @@ h4 {
 }
 .top-navigation a {
   color: white;
+}
+.top-navigation a:hover {
+/*  text-decoration: underline;*/
+	border-bottom: 2px solid white;
 }
 
 /**
