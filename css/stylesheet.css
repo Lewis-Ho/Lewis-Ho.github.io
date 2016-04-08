@@ -1,54 +1,62 @@
 /* max-width 640px*/
 @media only screen and (max-width: 40em) {
 	.top.band {
-		background: url('../img/top-band-bg2.jpeg') no-repeat center center;
-		background-size: 300%;
-		position:relative;
+		background: url('../img/top-band-bg2.jpeg') no-repeat center bottom;
+		width: 100%;
+		height: 100%;
+		position: static;
+		/*background-size: 300%;*/
+		/*position:relative;*/
 	}
 	.top-band-content h1 {
-		font-family: "proxima-nova",sans-serif;
+		font-family: 'Gotham SSm',sans-serif;
 		font-style: normal;
 		font-weight: 300;
 		text-transform:uppercase;
 		color:#fff;
 		font-size:2em;
-		letter-spacing:0.1em;
+    letter-spacing: 0.1em;
+    line-height: 1.1em;
 	}
 }
 
 /* min-width 641px and max-width 1024px*/
-@media only screen and (min-width: 40.063em) and (max-width: 64em) { 
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
 	.top.band {
-		background: url('../img/top-band-bg2.jpeg') no-repeat center center;
-		background-size: 160%;
-		position:relative;
+		background: url('../img/top-band-bg2.jpeg') no-repeat center bottom;
+		width: 100%;
+		height: 100%;
+		position: static;
 	}
 	.top-band-content h1 {
-		font-family: "proxima-nova",sans-serif;
+		font-family: 'Gotham SSm',sans-serif;
 		font-style: normal;
 		font-weight: 300;
 		text-transform:uppercase;
 		color:#fff;
 		font-size:4em;
-		letter-spacing:0.1em;
+    letter-spacing: 0.1em;
+    line-height: 1.1em;
 	}
 }
 
 /* min-width 1025px*/
 @media only screen and (min-width: 64.063em) {
 	.top.band {
-		background: url('../img/top-band-bg2.jpeg') no-repeat center center;
-		background-size: 100% auto;
-		position:relative;
+		background: url('../img/top-band-bg2.jpeg') no-repeat center bottom;
+		width: 100%;
+		height: 100%;
+		position: static;
 	}
 	.top-band-content h1 {
-		font-family: "proxima-nova",sans-serif;
+		font-family: 'Gotham SSm',sans-serif;
 		font-style: normal;
 		font-weight: 300;
 		text-transform:uppercase;
 		color:#fff;
 		font-size:4em;
-		letter-spacing:0.1em;
+    letter-spacing: 0.1em;
+    line-height: 1.1em;
 	}
 }
 
@@ -56,14 +64,14 @@ h2 {
 	text-transform:uppercase;
 	text-align:center;
 	padding:35px 0;
-	font-family: "proxima-nova",sans-serif;
+	font-family: 'Gotham SSm',sans-serif;
 	font-style: normal;
 	font-weight: 300;
 	font-size:28px;
 	letter-spacing:0.1em;
 }
 h3 {
-	font-family: "proxima-nova",sans-serif;
+	font-family: 'Gotham SSm',sans-serif;
 	font-style: normal;
 	font-weight: 400;
 	font-size:21px;
@@ -71,13 +79,23 @@ h3 {
 	text-transform:uppercase;
 }
 h4 {
-	font-family: "proxima-nova",sans-serif;
+	font-family: 'Gotham SSm',sans-serif;
 	font-style: normal;
 	font-weight: 400;
-	font-size:21px;
+	font-size:25px;
 	letter-spacing:0.2em;
+	text-transform:uppercase;
 }
-
+.slick-prev {
+  left: -90px;
+}
+.slick-next {
+  right: -50px;
+}
+.slick-prev:before, .slick-next:before {
+  color:black;
+	font-size: 60px;
+}
 /**
  * Header
  */
@@ -87,15 +105,45 @@ h4 {
 	background-size:100% auto;
 	position:relative;
 }*/
+p {
+	color: #777;
+}
+.top-bar, .top-bar ul {
+	background-color:#fff;
+}
+li.nav-item {
+	text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #222;
+  font-weight: 500;
+  font-family: 'Gotham SSm',sans-serif;
+  font-size: 10px;
+	/*word-spacing: 15px;*/
+}
+li.nav-item a {
+  margin-right: 3em;
+  color: #777;
+  font-weight: 500;
+	font-size: 10.5px;
+}
+/*.sticky {
+  width: 100%;
+}*/
+ul.menu {
+	display: block; text-align:center;
+}
+ul.menu li {
+	display: inline-block;
+}
 .top.band h1 {
-	text-align:center;
-	padding: 50px 0 0 0;
+	/*text-align:center;
+	padding: 50px 0 0 0;*/
 }
 .top.band p {
-	max-width:550px;
-	padding:50px 0 100px 0;
+	/*max-width:550px;*/
+	/*padding:50px 0 100px 0;*/
 	margin:0 auto;
-	font-family: "proxima-nova",sans-serif;
+	font-family: 'Gotham SSm',sans-serif;
 	font-style: normal;
 	font-weight: 300;
 	font-size:16px;
@@ -104,12 +152,14 @@ h4 {
 .top-band-content {
 	z-index:999;
 	color:#fff;
+	position: absolute;
+  top: 50%;
 }
 #profile {
 	width: 200px;
 	height: 200px;
 	border-radius: 100px;
-	margin:100px 0 0 0;
+	margin:50px 0 50px 0;
 }
 .bg-overlay {
 	background:rgba(0,0,0,.5);
@@ -128,7 +178,7 @@ h4 {
 	text-transform:uppercase;
 	display:inline-block;
 	padding:0 10px;
-	font-family: "proxima-nova",sans-serif;
+	font-family: 'Gotham SSm',sans-serif;
 	font-style: normal;
 	font-weight: 100;
 	letter-spacing:0.1em;
@@ -144,20 +194,33 @@ h4 {
 /**
  * Content
  */
-
+.slick-slider {
+	margin-top: 10px;
+}
+.used-skill {
+	color: black;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: 300;
+	border-bottom: 1px black solid;
+	padding-bottom: 5px;
+}
 .project-work {
 	padding:0 0 75px 0;
 }
 .project-work p {
 	padding:10px 0 0 0;
-	font-family: "proxima-nova",sans-serif;
+	font-family: 'Gotham SSm',sans-serif;
 	font-style: normal;
 	font-weight: 100;
 	font-size:14px;
 	line-height:2em;
 }
+.skill {
+	background: #f0f0f0;
+}
 .skill-experience {
-	padding:0 0 75px 0;
+	padding:75px 0 75px 0;
 }
 .skill-experience ul {
 	margin:0;
@@ -165,7 +228,7 @@ h4 {
 .skill-experience li {
 	list-style:none;
 	padding:10px 0;
-	font-family: "proxima-nova",sans-serif;
+	font-family: 'Gotham SSm',sans-serif;
 	font-style: normal;
 	font-weight: 100;
 	font-size:14px;
@@ -176,17 +239,18 @@ h4 {
 /**
  * Footer
  */
-
 .footer.band {
-	padding:50px 0;
-	background:#000;
+	padding:30px 0;
+	background:grey;
+	text-align: center;
 }
-.footer.band h5 {
+.footer.band h4 {
+  text-align: center;
 	color:#fff;
-	font-family: "proxima-nova",sans-serif;
+	font-family: 'Gotham SSm',sans-serif;
 	font-style: normal;
 	font-weight: 300;
-	font-size:18px;
+	font-size:25px;
 	letter-spacing:0.2em;
 	text-transform:uppercase;
 }
@@ -196,7 +260,7 @@ h4 {
 .footer.band li {
 	list-style:none;
 	padding:0 0 14px 0;
-	font-family: "proxima-nova",sans-serif;
+	font-family: 'Gotham SSm',sans-serif;
 	font-style: normal;
 	font-weight: 400;
 	font-size:14px;
@@ -204,7 +268,12 @@ h4 {
 	color:#fff;
 }
 .box-link {
+	text-transform:uppercase;
+	font-size: 11px;
+	letter-spacing: .12em;
+	padding: 10px 50px;
   font-weight: bold;
-  color: black;
+	background-color: #1c1c1c;
+  border-color: #1c1c1c;
+  color: #fff;
 }
-
